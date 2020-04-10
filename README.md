@@ -1,3 +1,2 @@
 # testing
-For testing purpouses
-123
+For testing purposes
