@@ -1,6 +1,6 @@
 {
-  "name": "cash",
-  "version": "0.1.0",
+  "name": "testing",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "react-scripts build",
@@ -9,11 +9,6 @@
     "lint:fix": "prettier --write",
     "start": "react-scripts start",
     "test": "react-scripts test"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{css,scss}": [
