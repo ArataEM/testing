@@ -5,10 +5,18 @@ pipeline {
 				args '-p 3000:3000'
 			}		
     }
+	environment {
+        CI = 'true'
+    }
     stages {
-        stage('Test') {
+        stage('Build') {
             steps {
                 sh 'yarn install'
+            }
+        }
+	    stage('Test') {
+            steps {
+                sh 'yarn test'
             }
         }
     }
