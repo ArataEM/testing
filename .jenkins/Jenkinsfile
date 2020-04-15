@@ -9,7 +9,7 @@ pipeline {
         CI = 'true'
     }
     stages {
-        stage('Build') {
+        stage('Install') {
             steps {
                 sh 'yarn install'
             }
